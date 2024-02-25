@@ -12,17 +12,19 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f8f8f8; /* Fondo más claro */
+            color: #333; /* Texto oscuro */
         }
 
         header {
-            background-color: #c782ad;
+            background-color: #333;
             color: #fff;
             padding: 10px;
             text-align: center;
         }
 
         nav {
-            background-color: #f4f4f4;
+            background-color: #ddd; /* Fondo más claro */
             padding: 10px;
         }
 
@@ -31,14 +33,17 @@
             color: #333;
             padding: 10px;
             margin: 5px;
+            display: inline-block;
+            background-color: #fff; /* Fondo blanco */
         }
 
         nav a:hover {
-            background-color: #ddd;
+            background-color: #eee; /* Fondo más claro en el hover */
         }
 
         section {
             padding: 20px;
+            background-color: #fff; /* Fondo blanco */
         }
 
         img {
@@ -50,34 +55,33 @@
 <body>
 
     <!-- Encabezado de la página -->
-    <header>
+    <header role="banner">
         <h1>AirWaveChic - Tu Estilo, Tu Onda</h1>
     </header>
 
     <!-- Menú de navegación -->
-    <nav>
-        <a href="#home">Inicio</a>
-        <a href="features.html">Características</a>
-        <a href="precios.html">Precios</a>
-        <a href="documentacion.pdf" target="_blank">Documentación</a>
+    <nav role="navigation">
+        <a href="pagina_SU-PRIMER-NOMBRE-v1.html">Inicio</a>
+        <a href="#features">Características</a>
+        <a href="precios.html" role="link">Precios</a>
+        <a href="documentacion.pdf" target="_blank" role="link">Documentación</a>
     </nav>
 
     <!-- Área de contenido principal -->
-    <section>
+    <section role="main">
         <h2>Descubre AirWaveChic</h2>
-        <p>AirWaveChic presenta el secador de cabello más trendy del 2024, diseñado para expresar tu estilo único. Con un diseño moderno y materiales de calidad avanzada, este secador no solo te brinda un secado eficiente sino que también cuida y protege tu cabello, marcando la pauta en la última moda para el cuidado capilar.</p>
+        <p>AirWaveChic es un producto de moda diseñado para expresar tu estilo único...</p>
 
         <h3>Características Principales</h3>
-<ul>
-    <li>Tecnología de Secado Avanzada</li>
-    <li>Tecnología Iónica Negativa</li>
-    <li>Materiales de Alta Gama para un Cuidado Óptimo</li>
-    <li>Diseño Vanguardista y Ergonómico</li>
-    <li>Control de Temperatura Inteligente</li>
-    <li>Bajo Nivel de Ruido para una Experiencia Agradable</li>
-</ul>
+        <ul>
+            <li>Tecnología de Secado Avanzada</li>
+            <li>Tecnología Iónica Negativa</li>
+            <li>Materiales de Alta Gama para un Cuidado Óptimo</li>
+            <li>Diseño Vanguardista y Ergonómico</li>
+            <li>Control de Temperatura Inteligente</li>
+            <li>Bajo Nivel de Ruido para una Experiencia Agradable</li>
+        </ul>
 
-        <!-- Imagen del producto -->
         <img src="airwavechic.jpg" alt="AirWaveChic en acción">
 
         <p>¡Haz tu declaración de estilo con AirWaveChic!</p>
@@ -85,3 +89,4 @@
 
 </body>
 </html>
+
